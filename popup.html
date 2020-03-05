@@ -1,0 +1,61 @@
+<!-- Chrome Extension: Distraction Sub-system -->
+<!-- popup.html -->
+<!-- Created by Thanakit -->
+<!-- Last updated: 20/02/2020 -->
+<!-- Tiny popup when clicking extension button -->
+
+<!doctype html>
+<html>
+  <head>
+    <title>Distraction Sub-system</title>
+    <style>
+    body {
+	  width: 100px;
+	  height: 60px;
+      margin: 0px;
+      padding: 0px;
+      background: white;
+    }
+
+    div:first-child {
+      margin-top: 10px;
+    }
+
+    div {
+      cursor: pointer;
+      text-align: center;
+	  vertical-align: middle;
+	  line-height: 18px;
+      align: center;
+      font-family: arial;
+      font-size: 12px;
+      width: 80px;
+	  height: 20px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+      margin-top: 5px;
+	  margin-bottom: 2px;
+      background: #eeeeee;
+    }
+    div:hover {
+	  box-shadow: 0 0 1px 1px rgba(80, 140, 186, 0.5);
+      background: #aaaaaa;
+    }
+    #start {
+      border: 1px solid black;
+	  border-radius: 4px;
+      color: while;
+    }
+    #stop {
+      border: 1px solid black;
+	  border-radius: 4px;
+      color: while;
+    }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="start">start</div>
+    <div id="stop">stop</div>
+  </body>
+</html>
